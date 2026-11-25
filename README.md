@@ -59,6 +59,6 @@ INSTRUMENTUM/
 
 Este projeto foi desenvolvido como parte da minha jornada de aprendizado em desenvolvimento web, com o objetivo de praticar HTML, CSS e JavaScript, explorando conceitos de estruturação, estilização, responsividade e interatividade.
 
----
+--- https://rodrigosilva00.github.io/Instrumentum/ <--- link do site
 
 **Desenvolvido com dedicação e curiosidade pelo universo da música e da tecnologia.** 🎶
