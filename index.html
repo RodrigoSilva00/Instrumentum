@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSTRUMENTUM | Uma paixão, diferentes instrumentos</title>
+
+    <meta name="description" content="Uma jornada pessoal pelo universo da música e dos instrumentos musicais.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="header-container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-symbol">𝄞</span>
+                <span class="logo-name">INSTRUMENTUM</span>
+            </a>
+           
+            <nav class="navigation">
+                <a href="#instrumentos" class="explore-link">
+                    Explorar instrumentos
+                </a>
+
+                <button
+                    class="theme-toggle"
+                    id="theme-toggle"
+                    aria-label="Alternar entre tema claro e escuro"
+                    title="Alternar tema"
+                >
+                    <span id="theme-icon">☾</span>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- SEÇÃO INICIAL -->
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <h1>INSTRUMENTUM</h1>
+
+                <h2>
+                    Uma paixão, diferentes instrumentos,
+                    infinitas possibilidades.
+                </h2>
+
+                <div class="hero-divider"></div>
+
+                <p>
+                    A música sempre fez parte da minha vida.
+                    Tudo começou aos 16 anos, com o violão,
+                    e desde então essa paixão se transformou
+                    em uma jornada de descobertas,
+                    aprendizados e novas sonoridades.
+                </p>
+
+                <div class="hero-buttons">
+
+    <a href="#instrumentos" class="hero-button">
+        Conheça os instrumentos
+        <span>⌄</span>
+    </a>
+
+    <a href="#sobre" class="hero-button hero-button-secondary">
+        Sobre mim
+        <span>⌄</span>
+    </a>
+
+</div>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="img/hero.jpg"
+                    alt="Composição de instrumentos musicais em um ambiente de estúdio"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- GALERIA DE INSTRUMENTOS -->
+        <section class="instruments-section" id="instrumentos">
+
+            <div class="section-heading">
+
+                <div class="heading-decoration">
+                    <span></span>
+                    <span class="music-symbol">𝄞</span>
+                    <span></span>
+                </div>
+
+                <h2>Explore os instrumentos</h2>
+
+                <p>
+                    Cada instrumento possui uma história,
+                    características e uma sonoridade única.
+                </p>
+
+            </div>
+
+
+            <div class="instrument-grid">
+
+                <!-- VIOLÃO -->
+                <button
+                    class="instrument-card"
+                    data-instrument="violao"
+                    aria-label="Conheça o violão"
+                >
+                    <div class="instrument-image">
+                        <img src="img/violao.jpg" alt="Violão">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Violão</h3>
+                        <span>Cordas</span>
+                    </div>
+                </button>
+
+
+                <!-- PIANO -->
+                <button
+                    class="instrument-card"
+                    data-instrument="piano"
+                    aria-label="Conheça o piano"
+                >
+                    <div class="instrument-image">
+                        <img src="img/piano.jpg" alt="Piano">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Piano</h3>
+                        <span>Teclas</span>
+                    </div>
+                </button>
+
+
+                <!-- UKULELE -->
+                <button
+                    class="instrument-card"
+                    data-instrument="ukulele"
+                    aria-label="Conheça o ukulele"
+                >
+                    <div class="instrument-image">
+                        <img src="img/ukulele.jpg" alt="Ukulele">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Ukulele</h3>
+                        <span>Cordas</span>
+                    </div>
+                </button>
+
+
+                <!-- CAVAQUINHO -->
+                <button
+                    class="instrument-card"
+                    data-instrument="cavaquinho"
+                    aria-label="Conheça o cavaquinho"
+                >
+                    <div class="instrument-image">
+                        <img src="img/cavaquinho.jpg" alt="Cavaquinho">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Cavaquinho</h3>
+                        <span>Cordas</span>
+                    </div>
+                </button>
+
+
+                <!-- GAITA -->
+                <button
+                    class="instrument-card"
+                    data-instrument="gaita"
+                    aria-label="Conheça a gaita"
+                >
+                    <div class="instrument-image">
+                        <img src="img/gaita.jpg" alt="Gaita">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Gaita</h3>
+                        <span>Sopro</span>
+                    </div>
+                </button>
+
+
+                <!-- PANDEIRO -->
+                <button
+                    class="instrument-card"
+                    data-instrument="pandeiro"
+                    aria-label="Conheça o pandeiro"
+                >
+                    <div class="instrument-image">
+                        <img src="img/pandeiro.jpg" alt="Pandeiro">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Pandeiro</h3>
+                        <span>Percussão</span>
+                    </div>
+                </button>
+
+
+                <!-- GUITARRA -->
+                <button
+                    class="instrument-card"
+                    data-instrument="guitarra"
+                    aria-label="Conheça a guitarra"
+                >
+                    <div class="instrument-image">
+                        <img src="img/guitarra.jpg" alt="Guitarra">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Guitarra</h3>
+                        <span>Cordas</span>
+                    </div>
+                </button>
+
+
+                <!-- GANZÁ -->
+                <button
+                    class="instrument-card"
+                    data-instrument="ganza"
+                    aria-label="Conheça o ganzá"
+                >
+                    <div class="instrument-image">
+                        <img src="img/ganza.jpg" alt="Ganzá">
+                    </div>
+
+                    <div class="instrument-info">
+                        <h3>Ganzá</h3>
+                        <span>Percussão</span>
+                    </div>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- SEÇÃO SOBRE MIM -->
+<section class="about-section" id="sobre">
+
+    <div class="about-container">
+
+        <div class="about-heading">
+
+            <span class="about-label">POR TRÁS DA MÚSICA</span>
+
+            <h2>Sobre mim</h2>
+
+            <div class="about-divider"></div>
+
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>Muito além dos instrumentos, uma paixão pela música.</p>
+
+<p>Meu nome é Rodrigo, tenho 26 anos e sou apaixonado por música. Ao longo da minha trajetória, descobri que cada instrumento possui uma identidade própria, uma maneira diferente de produzir sons e inúmeras possibilidades de expressão. Essa curiosidade me levou a conhecer e aprender a tocar diferentes instrumentos, cada um contribuindo de uma forma especial para minha relação com a música.</p>
+
+                </p>
+                <p>A ideia deste projeto surgiu da vontade de compartilhar um pouco desse universo. Quero apresentar a pessoas curiosas ou apaixonadas por música, assim como eu, um pouco sobre cada instrumento, suas características, seu funcionamento e aquilo que os torna únicos. Mais do que compartilhar informações, espero que este espaço desperte novas curiosidades e talvez inspire outras pessoas a conhecerem ou até mesmo aprenderem um instrumento.</p>
+
+<p>Afinal, a música está presente em muitos momentos da nossa vida. Ela acompanha nossa rotina, marca lembranças, aproxima pessoas, transmite sentimentos e faz parte da maneira como enxergamos o mundo. Seja em uma melodia tranquila, em uma roda de amigos ou em uma grande apresentação, ela tem um papel especial no nosso dia a dia.</p>
+
+<p>Porque a música vai muito além de ouvir: é descobrir, sentir, aprender e compartilhar.</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+        <!-- PIANO INTERATIVO -->
+        <section class="piano-section" aria-label="Piano interativo">
+            <div class="piano-keyboard">
+
+                <!-- TECLAS BRANCAS -->
+                <button class="piano-key white-key" data-note="C4" aria-label="Dó"></button>
+                <button class="piano-key white-key" data-note="D4" aria-label="Ré"></button>
+                <button class="piano-key white-key" data-note="E4" aria-label="Mi"></button>
+                <button class="piano-key white-key" data-note="F4" aria-label="Fá"></button>
+                <button class="piano-key white-key" data-note="G4" aria-label="Sol"></button>
+                <button class="piano-key white-key" data-note="A4" aria-label="Lá"></button>
+                <button class="piano-key white-key" data-note="B4" aria-label="Si"></button>
+
+                <button class="piano-key white-key" data-note="C5" aria-label="Dó"></button>
+                <button class="piano-key white-key" data-note="D5" aria-label="Ré"></button>
+                <button class="piano-key white-key" data-note="E5" aria-label="Mi"></button>
+                <button class="piano-key white-key" data-note="F5" aria-label="Fá"></button>
+                <button class="piano-key white-key" data-note="G5" aria-label="Sol"></button>
+                <button class="piano-key white-key" data-note="A5" aria-label="Lá"></button>
+                <button class="piano-key white-key" data-note="B5" aria-label="Si"></button>
+
+                <!-- TECLAS PRETAS -->
+                <button class="piano-key black-key" data-note="C#4" style="left: 5%" aria-label="Dó sustenido"></button>
+                <button class="piano-key black-key" data-note="D#4" style="left: 12.15%" aria-label="Ré sustenido"></button>
+                <button class="piano-key black-key" data-note="F#4" style="left: 26.43%" aria-label="Fá sustenido"></button>
+                <button class="piano-key black-key" data-note="G#4" style="left: 33.57%" aria-label="Sol sustenido"></button>
+                <button class="piano-key black-key" data-note="A#4" style="left: 40.72%" aria-label="Lá sustenido"></button>
+
+                <button class="piano-key black-key" data-note="C#5" style="left: 55%" aria-label="Dó sustenido"></button>
+                <button class="piano-key black-key" data-note="D#5" style="left: 62.15%" aria-label="Ré sustenido"></button>
+                <button class="piano-key black-key" data-note="F#5" style="left: 76.43%" aria-label="Fá sustenido"></button>
+                <button class="piano-key black-key" data-note="G#5" style="left: 83.57%" aria-label="Sol sustenido"></button>
+                <button class="piano-key black-key" data-note="A#5" style="left: 90.72%" aria-label="Lá sustenido"></button>
+
+            </div>
+        </section>
+
+
+        <!-- MODAL DOS INSTRUMENTOS -->
+        <div class="modal-overlay" id="instrument-modal" aria-hidden="true">
+
+            <div
+                class="modal-content"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="modal-title"
+            >
+
+                <button
+                    class="modal-close"
+                    id="modal-close"
+                    aria-label="Fechar janela"
+                >
+                    ×
+                </button>
+
+                <div class="modal-body" id="modal-body">
+
+                    <!-- Conteúdo inserido pelo JavaScript -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <span class="footer-symbol">𝄞</span>
+                <span>INSTRUMENTUM</span>
+            </div>
+
+            <p class="footer-phrase">
+                Música é vida. E vida é som.
+            </p>
+
+            <div class="footer-contact">
+
+                <span class="contact-label">Contato</span>
+
+                <a href="mailto:rodrigodexter007@gmail.com">
+                    rodrigodexter007@gmail.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
